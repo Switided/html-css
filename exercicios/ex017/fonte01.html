@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+
+            /* lighter normal bold bolder */
+
+        }
+
+        h1 {
+            
+            /* shorthand font
+            - font-style -> font-weight ->  font-size -> font-family 
+            
+            font-size: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam assumenda ab ut corporis cumque doloremque tempore placeat aperiam? Eaque voluptatem reiciendis eius tenetur maiores nesciunt velit nam. Facilis, inventore voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate omnis explicabo unde harum libero excepturi odit, magnam molestias ut sint, eveniet laudantium alias maxime in quisquam aut doloremque tempore sed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quae architecto expedita autem illum, cumque similique, rerum labore exercitationem quasi unde quod ipsa sint provident deserunt ad sapiente libero. Placeat!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate eos consectetur aspernatur et dolore id incidunt, est neque saepe laudantium omnis iste praesentium aliquam? Cumque fugiat eveniet eligendi aut autem!</p>
+</body>
+</html>

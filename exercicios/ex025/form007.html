@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+                
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="1stprof">
+            <datalist id="1stprof">
+                <option value="ADM">Administrador</option>
+                <option value="ADV">Advogado</option>
+                <option value="AER">Aeromoça</option>
+                <option value="ALUN">Aluno</option>
+                <option value="ART">Artista</option>
+                <option value="ARQ">Arquiteto</option>
+                <option value="ATOR">Ator</option>
+                <option value="BARB">Barbeiro</option>
+                <option value="BARI">Barista</option>
+                <option value="BKEN">Back-End</option>
+                <option value="CABL">Cabeleireiro</option>
+                <option value="CAIX">Caixa</option>
+                <option value="CAPT">Capitão</option>
+                <option value="CICL">Ciclista</option>
+                <option value="CCHE">Cozinheiro</option>
+                <option value="CELE">Celebridade</option>
+                <option value="CEO">Dono</option>
+                <option value="CHEF">Chefe de Cozinha</option>
+                <option value="CLIE">Cliente</option>
+                <option value="CENG">Engenheiro Civil</option>
+                <option value="CONS">Construtor</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DES">Designer</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="DJ">DJ</option>
+                <option value="DIRE">Diretor</option>
+                <option value="EMIL">Ex-Militar</option>
+                <option value="ENG">Engenheiro</option>
+                <option value="ENF">Enfermeiro</option>
+                <option value="ESP">Esportista</option>
+                <option value="ESC">Escavador</option>
+                <option value="FARM">Farmacêutico</option>
+                <option value="FIS">Físico</option>
+                <option value="FOT">Fotógrafo</option>
+                <option value="FTEN">Front-End</option>
+                <option value="GAR">Garçom</option>
+                <option value="GEOG">Geógrafo</option>
+                <option value="GEOL">Geólogo</option>
+                <option value="GIN">Ginasta</option>
+                <option value="HIS">Historiador</option>
+                <option value="JORN">Jornalista</option>
+                <option value="LID">Líder</option>
+                <option value="MEC">Mecânico</option>
+                <option value="MED">Médico</option>
+                <option value="MOTO">Motorista</option>
+                <option value="MUS">Músico</option>
+                <option value="NUT">Nutricionista</option>
+                <option value="PAD">Padeiro</option>
+                <option value="PART">Participador</option>
+                <option value="PCHE">Chefe da Polícia</option>
+                <option value="PED">Pedreiro</option>
+                <option value="PES">Pescador</option>
+                <option value="PIL">Piloto</option>
+                <option value="POL">Policial</option>
+                <option value="PROF">Professor</option>
+                <option value="PSEG">Segurança Privado</option>
+                <option value="RAD">Trabalhador de Rádio</option>
+                <option value="SEG">Segurança</option>
+                <option value="SHE">Sherife</option>
+                <option value="SUSH">Sushiman</option>
+                <option value="TAX">Taxista</option>
+                <option value="TEC">Técnico</option>
+                <option value="TES">Testador</option>
+                <option value="UBER">Uber</option>
+                <option value="VET">Veterinário</option>
+                <option value="VSEG">Segurança Público</option>
+                <option value="XXX">Desempregado</option>
+                <option value="ZEL">Zelador</option>
+                <option value="ZOO">Zoologista</option>                
+            </datalist>
+        </p>
+    </form>
+</body>
+</html>
